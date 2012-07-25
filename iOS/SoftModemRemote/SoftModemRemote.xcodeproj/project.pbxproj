@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB9A8D6B15BEA52C005F3DF2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9A8D6915BEA52C005F3DF2 /* Icon.png */; };
+		FB9A8D6C15BEA52C005F3DF2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9A8D6A15BEA52C005F3DF2 /* Icon@2x.png */; };
+		FB9A8D6F15BEA5AA005F3DF2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9A8D6D15BEA5AA005F3DF2 /* Default.png */; };
+		FB9A8D7015BEA5AA005F3DF2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9A8D6E15BEA5AA005F3DF2 /* Default@2x.png */; };
+		FBBD3CD415BE57A90035F419 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBD3CD315BE57A90035F419 /* UIKit.framework */; };
+		FBBD3CD615BE57A90035F419 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBD3CD515BE57A90035F419 /* Foundation.framework */; };
+		FBBD3CD815BE57A90035F419 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBD3CD715BE57A90035F419 /* CoreGraphics.framework */; };
+		FBBD3CDE15BE57A90035F419 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3CDC15BE57A90035F419 /* InfoPlist.strings */; };
+		FBBD3CE015BE57A90035F419 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBD3CDF15BE57A90035F419 /* main.m */; };
+		FBBD3CE415BE57AA0035F419 /* NLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBD3CE315BE57AA0035F419 /* NLAppDelegate.m */; };
+		FBBD3CE715BE57AA0035F419 /* NLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBD3CE615BE57AA0035F419 /* NLMainViewController.m */; };
+		FBBD3D1315BE58970035F419 /* AudioQueueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBD3D0315BE58970035F419 /* AudioQueueObject.m */; };
+		FBBD3D1415BE58970035F419 /* AudioSignalAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBD3D0515BE58970035F419 /* AudioSignalAnalyzer.m */; };
+		FBBD3D1515BE58970035F419 /* AudioSignalGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBD3D0715BE58970035F419 /* AudioSignalGenerator.m */; };
+		FBBD3D1615BE58970035F419 /* FSKRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = FBBD3D0C15BE58970035F419 /* FSKRecognizer.mm */; };
+		FBBD3D1715BE58970035F419 /* FSKSerialGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = FBBD3D0E15BE58970035F419 /* FSKSerialGenerator.mm */; };
+		FBBD3D1815BE58970035F419 /* MultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBD3D1115BE58970035F419 /* MultiDelegate.m */; };
+		FBBD3D1B15BE59150035F419 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBD3D1915BE59150035F419 /* AudioToolbox.framework */; };
+		FBBD3D1C15BE59150035F419 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBD3D1A15BE59150035F419 /* AVFoundation.framework */; };
+		FBBD3D1F15BE59490035F419 /* NLInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBD3D1E15BE59490035F419 /* NLInfoViewController.m */; };
+		FBBD3D2A15BE5D4B0035F419 /* 9lab.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D2615BE5D4B0035F419 /* 9lab.png */; };
+		FBBD3D2B15BE5D4B0035F419 /* 9lab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D2715BE5D4B0035F419 /* 9lab@2x.png */; };
+		FBBD3D2C15BE5D4B0035F419 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D2815BE5D4B0035F419 /* logo.png */; };
+		FBBD3D2D15BE5D4B0035F419 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D2915BE5D4B0035F419 /* logo@2x.png */; };
+		FBBD3D3215BE5ECB0035F419 /* NSString+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBD3D3015BE5ECB0035F419 /* NSString+HexColor.m */; };
+		FBBD3D3915BE61820035F419 /* arrow_2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D3315BE61820035F419 /* arrow_2.png */; };
+		FBBD3D3A15BE61820035F419 /* arrow_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D3415BE61820035F419 /* arrow_2@2x.png */; };
+		FBBD3D3B15BE61820035F419 /* arrow_1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D3515BE61820035F419 /* arrow_1.png */; };
+		FBBD3D3C15BE61820035F419 /* arrow_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D3615BE61820035F419 /* arrow_1@2x.png */; };
+		FBBD3D3D15BE61820035F419 /* panel.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D3715BE61820035F419 /* panel.png */; };
+		FBBD3D3E15BE61820035F419 /* panel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D3815BE61820035F419 /* panel@2x.png */; };
+		FBBD3D4E15BE818B0035F419 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D4415BE818B0035F419 /* bg.png */; };
+		FBBD3D4F15BE818B0035F419 /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D4515BE818B0035F419 /* bg@2x.png */; };
+		FBBD3D5015BE818B0035F419 /* btn_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D4615BE818B0035F419 /* btn_grey.png */; };
+		FBBD3D5115BE818B0035F419 /* btn_grey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D4715BE818B0035F419 /* btn_grey@2x.png */; };
+		FBBD3D5215BE818B0035F419 /* btn_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D4815BE818B0035F419 /* btn_orange.png */; };
+		FBBD3D5315BE818B0035F419 /* btn_orange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D4915BE818B0035F419 /* btn_orange@2x.png */; };
+		FBBD3D5415BE818B0035F419 /* input1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D4A15BE818B0035F419 /* input1.png */; };
+		FBBD3D5515BE818B0035F419 /* input1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D4B15BE818B0035F419 /* input1@2x.png */; };
+		FBBD3D5615BE818B0035F419 /* input2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D4C15BE818B0035F419 /* input2.png */; };
+		FBBD3D5715BE818B0035F419 /* input2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBD3D4D15BE818B0035F419 /* input2@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB9A8D6915BEA52C005F3DF2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FB9A8D6A15BEA52C005F3DF2 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		FB9A8D6D15BEA5AA005F3DF2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FB9A8D6E15BEA5AA005F3DF2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FBBD3CCF15BE57A90035F419 /* SoftModemRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoftModemRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBBD3CD315BE57A90035F419 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBBD3CD515BE57A90035F419 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBBD3CD715BE57A90035F419 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBBD3CDB15BE57A90035F419 /* SoftModemRemote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoftModemRemote-Info.plist"; sourceTree = "<group>"; };
+		FBBD3CDD15BE57A90035F419 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBBD3CDF15BE57A90035F419 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBBD3CE115BE57AA0035F419 /* SoftModemRemote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoftModemRemote-Prefix.pch"; sourceTree = "<group>"; };
+		FBBD3CE215BE57AA0035F419 /* NLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLAppDelegate.h; sourceTree = "<group>"; };
+		FBBD3CE315BE57AA0035F419 /* NLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLAppDelegate.m; sourceTree = "<group>"; };
+		FBBD3CE515BE57AA0035F419 /* NLMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NLMainViewController.h; sourceTree = "<group>"; };
+		FBBD3CE615BE57AA0035F419 /* NLMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLMainViewController.m; sourceTree = "<group>"; };
+		FBBD3D0215BE58970035F419 /* AudioQueueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueueObject.h; sourceTree = "<group>"; };
+		FBBD3D0315BE58970035F419 /* AudioQueueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueueObject.m; sourceTree = "<group>"; };
+		FBBD3D0415BE58970035F419 /* AudioSignalAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSignalAnalyzer.h; sourceTree = "<group>"; };
+		FBBD3D0515BE58970035F419 /* AudioSignalAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSignalAnalyzer.m; sourceTree = "<group>"; };
+		FBBD3D0615BE58970035F419 /* AudioSignalGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSignalGenerator.h; sourceTree = "<group>"; };
+		FBBD3D0715BE58970035F419 /* AudioSignalGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSignalGenerator.m; sourceTree = "<group>"; };
+		FBBD3D0815BE58970035F419 /* CharReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharReceiver.h; sourceTree = "<group>"; };
+		FBBD3D0915BE58970035F419 /* FSKByteQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKByteQueue.h; sourceTree = "<group>"; };
+		FBBD3D0A15BE58970035F419 /* FSKModemConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKModemConfig.h; sourceTree = "<group>"; };
+		FBBD3D0B15BE58970035F419 /* FSKRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKRecognizer.h; sourceTree = "<group>"; };
+		FBBD3D0C15BE58970035F419 /* FSKRecognizer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSKRecognizer.mm; sourceTree = "<group>"; };
+		FBBD3D0D15BE58970035F419 /* FSKSerialGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKSerialGenerator.h; sourceTree = "<group>"; };
+		FBBD3D0E15BE58970035F419 /* FSKSerialGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSKSerialGenerator.mm; sourceTree = "<group>"; };
+		FBBD3D0F15BE58970035F419 /* lockfree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lockfree.h; sourceTree = "<group>"; };
+		FBBD3D1015BE58970035F419 /* MultiDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiDelegate.h; sourceTree = "<group>"; };
+		FBBD3D1115BE58970035F419 /* MultiDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiDelegate.m; sourceTree = "<group>"; };
+		FBBD3D1215BE58970035F419 /* PatternRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternRecognizer.h; sourceTree = "<group>"; };
+		FBBD3D1915BE59150035F419 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FBBD3D1A15BE59150035F419 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FBBD3D1D15BE59490035F419 /* NLInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLInfoViewController.h; sourceTree = "<group>"; };
+		FBBD3D1E15BE59490035F419 /* NLInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLInfoViewController.m; sourceTree = "<group>"; };
+		FBBD3D2615BE5D4B0035F419 /* 9lab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9lab.png; sourceTree = "<group>"; };
+		FBBD3D2715BE5D4B0035F419 /* 9lab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9lab@2x.png"; sourceTree = "<group>"; };
+		FBBD3D2815BE5D4B0035F419 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		FBBD3D2915BE5D4B0035F419 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		FBBD3D2F15BE5ECB0035F419 /* NSString+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HexColor.h"; sourceTree = "<group>"; };
+		FBBD3D3015BE5ECB0035F419 /* NSString+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HexColor.m"; sourceTree = "<group>"; };
+		FBBD3D3115BE5ECB0035F419 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		FBBD3D3315BE61820035F419 /* arrow_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_2.png; sourceTree = "<group>"; };
+		FBBD3D3415BE61820035F419 /* arrow_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_2@2x.png"; sourceTree = "<group>"; };
+		FBBD3D3515BE61820035F419 /* arrow_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_1.png; sourceTree = "<group>"; };
+		FBBD3D3615BE61820035F419 /* arrow_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_1@2x.png"; sourceTree = "<group>"; };
+		FBBD3D3715BE61820035F419 /* panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panel.png; sourceTree = "<group>"; };
+		FBBD3D3815BE61820035F419 /* panel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "panel@2x.png"; sourceTree = "<group>"; };
+		FBBD3D4415BE818B0035F419 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		FBBD3D4515BE818B0035F419 /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
+		FBBD3D4615BE818B0035F419 /* btn_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_grey.png; sourceTree = "<group>"; };
+		FBBD3D4715BE818B0035F419 /* btn_grey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_grey@2x.png"; sourceTree = "<group>"; };
+		FBBD3D4815BE818B0035F419 /* btn_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_orange.png; sourceTree = "<group>"; };
+		FBBD3D4915BE818B0035F419 /* btn_orange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_orange@2x.png"; sourceTree = "<group>"; };
+		FBBD3D4A15BE818B0035F419 /* input1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = input1.png; sourceTree = "<group>"; };
+		FBBD3D4B15BE818B0035F419 /* input1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input1@2x.png"; sourceTree = "<group>"; };
+		FBBD3D4C15BE818B0035F419 /* input2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = input2.png; sourceTree = "<group>"; };
+		FBBD3D4D15BE818B0035F419 /* input2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "input2@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBBD3CCC15BE57A90035F419 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBD3D1B15BE59150035F419 /* AudioToolbox.framework in Frameworks */,
+				FBBD3D1C15BE59150035F419 /* AVFoundation.framework in Frameworks */,
+				FBBD3CD415BE57A90035F419 /* UIKit.framework in Frameworks */,
+				FBBD3CD615BE57A90035F419 /* Foundation.framework in Frameworks */,
+				FBBD3CD815BE57A90035F419 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBBD3CC415BE57A90035F419 = {
+			isa = PBXGroup;
+			children = (
+				FBBD3CD915BE57A90035F419 /* SoftModemRemote */,
+				FBBD3CD215BE57A90035F419 /* Frameworks */,
+				FBBD3CD015BE57A90035F419 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBBD3CD015BE57A90035F419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD3CCF15BE57A90035F419 /* SoftModemRemote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBBD3CD215BE57A90035F419 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD3D1915BE59150035F419 /* AudioToolbox.framework */,
+				FBBD3D1A15BE59150035F419 /* AVFoundation.framework */,
+				FBBD3CD315BE57A90035F419 /* UIKit.framework */,
+				FBBD3CD515BE57A90035F419 /* Foundation.framework */,
+				FBBD3CD715BE57A90035F419 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBBD3CD915BE57A90035F419 /* SoftModemRemote */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD3CE215BE57AA0035F419 /* NLAppDelegate.h */,
+				FBBD3CE315BE57AA0035F419 /* NLAppDelegate.m */,
+				FBBD3CE515BE57AA0035F419 /* NLMainViewController.h */,
+				FBBD3CE615BE57AA0035F419 /* NLMainViewController.m */,
+				FBBD3D1D15BE59490035F419 /* NLInfoViewController.h */,
+				FBBD3D1E15BE59490035F419 /* NLInfoViewController.m */,
+				FBBD3D0015BE58970035F419 /* Dependencies */,
+				FBBD3CDA15BE57A90035F419 /* Supporting Files */,
+			);
+			path = SoftModemRemote;
+			sourceTree = "<group>";
+		};
+		FBBD3CDA15BE57A90035F419 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD3D2515BE5D4B0035F419 /* Resources */,
+				FBBD3CDB15BE57A90035F419 /* SoftModemRemote-Info.plist */,
+				FBBD3CDC15BE57A90035F419 /* InfoPlist.strings */,
+				FBBD3CDF15BE57A90035F419 /* main.m */,
+				FBBD3CE115BE57AA0035F419 /* SoftModemRemote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBBD3D0015BE58970035F419 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD3D2E15BE5ECB0035F419 /* FK */,
+				FBBD3D0115BE58970035F419 /* SoftModem */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
+		FBBD3D0115BE58970035F419 /* SoftModem */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD3D0215BE58970035F419 /* AudioQueueObject.h */,
+				FBBD3D0315BE58970035F419 /* AudioQueueObject.m */,
+				FBBD3D0415BE58970035F419 /* AudioSignalAnalyzer.h */,
+				FBBD3D0515BE58970035F419 /* AudioSignalAnalyzer.m */,
+				FBBD3D0615BE58970035F419 /* AudioSignalGenerator.h */,
+				FBBD3D0715BE58970035F419 /* AudioSignalGenerator.m */,
+				FBBD3D0815BE58970035F419 /* CharReceiver.h */,
+				FBBD3D0915BE58970035F419 /* FSKByteQueue.h */,
+				FBBD3D0A15BE58970035F419 /* FSKModemConfig.h */,
+				FBBD3D0B15BE58970035F419 /* FSKRecognizer.h */,
+				FBBD3D0C15BE58970035F419 /* FSKRecognizer.mm */,
+				FBBD3D0D15BE58970035F419 /* FSKSerialGenerator.h */,
+				FBBD3D0E15BE58970035F419 /* FSKSerialGenerator.mm */,
+				FBBD3D0F15BE58970035F419 /* lockfree.h */,
+				FBBD3D1015BE58970035F419 /* MultiDelegate.h */,
+				FBBD3D1115BE58970035F419 /* MultiDelegate.m */,
+				FBBD3D1215BE58970035F419 /* PatternRecognizer.h */,
+			);
+			path = SoftModem;
+			sourceTree = "<group>";
+		};
+		FBBD3D2515BE5D4B0035F419 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD3D2615BE5D4B0035F419 /* 9lab.png */,
+				FBBD3D2715BE5D4B0035F419 /* 9lab@2x.png */,
+				FBBD3D2815BE5D4B0035F419 /* logo.png */,
+				FBBD3D2915BE5D4B0035F419 /* logo@2x.png */,
+				FBBD3D3315BE61820035F419 /* arrow_2.png */,
+				FBBD3D3415BE61820035F419 /* arrow_2@2x.png */,
+				FBBD3D3515BE61820035F419 /* arrow_1.png */,
+				FBBD3D3615BE61820035F419 /* arrow_1@2x.png */,
+				FBBD3D3715BE61820035F419 /* panel.png */,
+				FBBD3D3815BE61820035F419 /* panel@2x.png */,
+				FBBD3D4415BE818B0035F419 /* bg.png */,
+				FBBD3D4515BE818B0035F419 /* bg@2x.png */,
+				FBBD3D4615BE818B0035F419 /* btn_grey.png */,
+				FBBD3D4715BE818B0035F419 /* btn_grey@2x.png */,
+				FBBD3D4815BE818B0035F419 /* btn_orange.png */,
+				FBBD3D4915BE818B0035F419 /* btn_orange@2x.png */,
+				FBBD3D4A15BE818B0035F419 /* input1.png */,
+				FBBD3D4B15BE818B0035F419 /* input1@2x.png */,
+				FBBD3D4C15BE818B0035F419 /* input2.png */,
+				FBBD3D4D15BE818B0035F419 /* input2@2x.png */,
+				FB9A8D6915BEA52C005F3DF2 /* Icon.png */,
+				FB9A8D6A15BEA52C005F3DF2 /* Icon@2x.png */,
+				FB9A8D6D15BEA5AA005F3DF2 /* Default.png */,
+				FB9A8D6E15BEA5AA005F3DF2 /* Default@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FBBD3D2E15BE5ECB0035F419 /* FK */ = {
+			isa = PBXGroup;
+			children = (
+				FBBD3D2F15BE5ECB0035F419 /* NSString+HexColor.h */,
+				FBBD3D3015BE5ECB0035F419 /* NSString+HexColor.m */,
+				FBBD3D3115BE5ECB0035F419 /* UIView+Layout.h */,
+			);
+			path = FK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBBD3CCE15BE57A90035F419 /* SoftModemRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBBD3CED15BE57AA0035F419 /* Build configuration list for PBXNativeTarget "SoftModemRemote" */;
+			buildPhases = (
+				FBBD3CCB15BE57A90035F419 /* Sources */,
+				FBBD3CCC15BE57A90035F419 /* Frameworks */,
+				FBBD3CCD15BE57A90035F419 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoftModemRemote;
+			productName = IRRemote;
+			productReference = FBBD3CCF15BE57A90035F419 /* SoftModemRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBBD3CC615BE57A90035F419 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NL;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = 9Lab;
+			};
+			buildConfigurationList = FBBD3CC915BE57A90035F419 /* Build configuration list for PBXProject "SoftModemRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBBD3CC415BE57A90035F419;
+			productRefGroup = FBBD3CD015BE57A90035F419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBBD3CCE15BE57A90035F419 /* SoftModemRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBBD3CCD15BE57A90035F419 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBD3CDE15BE57A90035F419 /* InfoPlist.strings in Resources */,
+				FBBD3D2A15BE5D4B0035F419 /* 9lab.png in Resources */,
+				FBBD3D2B15BE5D4B0035F419 /* 9lab@2x.png in Resources */,
+				FBBD3D2C15BE5D4B0035F419 /* logo.png in Resources */,
+				FBBD3D2D15BE5D4B0035F419 /* logo@2x.png in Resources */,
+				FBBD3D3915BE61820035F419 /* arrow_2.png in Resources */,
+				FBBD3D3A15BE61820035F419 /* arrow_2@2x.png in Resources */,
+				FBBD3D3B15BE61820035F419 /* arrow_1.png in Resources */,
+				FBBD3D3C15BE61820035F419 /* arrow_1@2x.png in Resources */,
+				FBBD3D3D15BE61820035F419 /* panel.png in Resources */,
+				FBBD3D3E15BE61820035F419 /* panel@2x.png in Resources */,
+				FBBD3D4E15BE818B0035F419 /* bg.png in Resources */,
+				FBBD3D4F15BE818B0035F419 /* bg@2x.png in Resources */,
+				FBBD3D5015BE818B0035F419 /* btn_grey.png in Resources */,
+				FBBD3D5115BE818B0035F419 /* btn_grey@2x.png in Resources */,
+				FBBD3D5215BE818B0035F419 /* btn_orange.png in Resources */,
+				FBBD3D5315BE818B0035F419 /* btn_orange@2x.png in Resources */,
+				FBBD3D5415BE818B0035F419 /* input1.png in Resources */,
+				FBBD3D5515BE818B0035F419 /* input1@2x.png in Resources */,
+				FBBD3D5615BE818B0035F419 /* input2.png in Resources */,
+				FBBD3D5715BE818B0035F419 /* input2@2x.png in Resources */,
+				FB9A8D6B15BEA52C005F3DF2 /* Icon.png in Resources */,
+				FB9A8D6C15BEA52C005F3DF2 /* Icon@2x.png in Resources */,
+				FB9A8D6F15BEA5AA005F3DF2 /* Default.png in Resources */,
+				FB9A8D7015BEA5AA005F3DF2 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBBD3CCB15BE57A90035F419 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBD3CE015BE57A90035F419 /* main.m in Sources */,
+				FBBD3CE415BE57AA0035F419 /* NLAppDelegate.m in Sources */,
+				FBBD3CE715BE57AA0035F419 /* NLMainViewController.m in Sources */,
+				FBBD3D1315BE58970035F419 /* AudioQueueObject.m in Sources */,
+				FBBD3D1415BE58970035F419 /* AudioSignalAnalyzer.m in Sources */,
+				FBBD3D1515BE58970035F419 /* AudioSignalGenerator.m in Sources */,
+				FBBD3D1615BE58970035F419 /* FSKRecognizer.mm in Sources */,
+				FBBD3D1715BE58970035F419 /* FSKSerialGenerator.mm in Sources */,
+				FBBD3D1815BE58970035F419 /* MultiDelegate.m in Sources */,
+				FBBD3D1F15BE59490035F419 /* NLInfoViewController.m in Sources */,
+				FBBD3D3215BE5ECB0035F419 /* NSString+HexColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBBD3CDC15BE57A90035F419 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBBD3CDD15BE57A90035F419 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBBD3CEB15BE57AA0035F419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBBD3CEC15BE57AA0035F419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBBD3CEE15BE57AA0035F419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoftModemRemote/SoftModemRemote-Prefix.pch";
+				INFOPLIST_FILE = "SoftModemRemote/SoftModemRemote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_RIG = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBBD3CEF15BE57AA0035F419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoftModemRemote/SoftModemRemote-Prefix.pch";
+				INFOPLIST_FILE = "SoftModemRemote/SoftModemRemote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_RIG = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBBD3CC915BE57A90035F419 /* Build configuration list for PBXProject "SoftModemRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBD3CEB15BE57AA0035F419 /* Debug */,
+				FBBD3CEC15BE57AA0035F419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBBD3CED15BE57AA0035F419 /* Build configuration list for PBXNativeTarget "SoftModemRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBBD3CEE15BE57AA0035F419 /* Debug */,
+				FBBD3CEF15BE57AA0035F419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBBD3CC615BE57A90035F419 /* Project object */;
+}
