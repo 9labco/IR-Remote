@@ -14,4 +14,4 @@ Arduino IR remote uses softmodem connect the iPhone to control IR devices
 
 ![Softmodem](https://raw.github.com/9labco/IR-Remote/master/softmodem.jpg)
 
-Bought from [Elechouse](http://www.elechouse.com/elechouse/)
+Softmodem is bought from [Elechouse](http://www.elechouse.com/elechouse/)
